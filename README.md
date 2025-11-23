@@ -1,7 +1,9 @@
-# C2-Hacks-2025
- UBCO C2 Hacks Hackathon 2025; Central Theme: Reinvent an existing technology
+# $${\color{blue}We \space are \space "Team", \space and \space this \space is \space CommentGuard.}$$
+Yes. We decided to call our team "Team".
 
-# Instagram – Comment Well-Being Demo
+Our submission for UBCO C^2 Hacks 2025 Hackathon; Central Theme: Reinvent an app for social good.
+
+## Instagram – Comment Well-Being Demo
 
 This project is a **browser-based prototype** that reimagines Instagram with a focus on **mental well-being**.
 
