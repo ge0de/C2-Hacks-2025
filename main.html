@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Instagram – Comment Well-being Demo</title>
+  <link rel="stylesheet" href="design.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">Instagram</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Messages</a>
+      <a href="#">About</a>
+    </nav>
+  </header>
+
+  <main class="main-container">
+    <!-- LEFT: Instagram-style feed -->
+    <section class="left-panel">
+      <!-- Stories bar -->
+      <div class="stories-bar" id="storiesBar">
+        <!-- JS will render stories here -->
+      </div>
+
+      <!-- Feed -->
+      <div id="feed">
+        <!-- JS will render posts here -->
+      </div>
+    </section>
+
+    <!-- RIGHT: AI analysis panel -->
+    <aside class="right-panel">
+      <div class="ai-card">
+        <h2>AI Comment Health Check</h2>
+        <p class="ai-description">
+          We scan the comments on this feed and estimate how harmful they might be
+          <strong>before</strong> you read or post.
+        </p>
+
+        <div class="toxicity-meter">
+          <div class="meter-label">
+            Overall toxicity level:
+            <span id="toxicityPercent">--%</span>
+          </div>
+          <div class="meter-bar">
+            <div id="meterFill" class="meter-fill"></div>
+          </div>
+          <div id="toxicityTag" class="toxicity-tag">Analyzing...</div>
+        </div>
+
+        <div class="ai-message-box">
+          <p id="wellBeingMessage">
+            AI is analyzing all comments to give you a well-being recommendation...
+          </p>
+        </div>
+
+        <div id="aiFlagsList" class="ai-flags">
+          <!-- JS will add pills like “Toxic comments detected” -->
+        </div>
+
+        <p id="escapeCountText" class="helper-text">
+          Instagram has protected you <strong>0</strong> times so far by stopping harmful comments.
+        </p>
+      </div>
+    </aside>
+  </main>
+
+  <script src="code.js"></script>
+</body>
+</html>
